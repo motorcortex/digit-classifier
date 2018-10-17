@@ -67,3 +67,5 @@ xgb_conf_mat_2 <- caret::confusionMatrix(factor(xgb_train_preds$real_digit),
 print(xgb_conf_mat_2)
 
 #save.image()
+git mv "load data.R" "load_and_analyse.R"
+
